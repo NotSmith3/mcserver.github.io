@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Map - Our Minecraft Server</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #1e90ff;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            font-size: 2.5em;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            color: #1e90ff;
+        }
+        .map-container {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .map-container iframe {
+            width: 80%;
+            height: 600px;
+            border: none;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Live Map</h1>
+        <p>Explore the world in real-time</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="info.html">Server Info</a>
+        <a href="map.html">Live Map</a>
+    </nav>
+
+    <!-- Map Section -->
+    <div class="map-container">
+        <h2>Check out the live map of our Minecraft world</h2>
+        <iframe src="http://node5.minegrate.fun:25963/" title="Dynmap"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Our Minecraft Server | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
